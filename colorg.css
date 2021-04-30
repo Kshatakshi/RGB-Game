@@ -1,0 +1,62 @@
+body{
+	background-color: #232323;
+	font-family: "Corbel Light";
+}
+h1{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	background: rgb(47, 79, 79);
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.5;
+}
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgb(47, 79, 79);
+	height: 100%;
+	letter-spacing: 2px;
+	margin-top: 0;
+}
+button:hover{
+    background-color: rgb(47, 79, 79);
+    color: white;
+}
+#pickedColor{
+	font-weight: bold;
+	font-size: 2em;
+
+}
+#statement{
+	display: inline-block;
+	width: 20%;
+	font-weight: bold;
+}
+.strip{
+	text-align: center;
+	background-color: white;
+	color: rgb(47, 79, 79);
+}
+.selected{
+	background-color: rgb(47, 79, 79);
+	color: white;
+
+}
+.container{
+	max-width: 600px;
+	margin: 0 auto;
+}
+.square{
+	width: 30%;
+	margin: 1.66%;
+	padding-bottom: 30%;
+	float: left;
+	border-radius: 15px;
+	transition-duration: .3s;
+
+}
+
